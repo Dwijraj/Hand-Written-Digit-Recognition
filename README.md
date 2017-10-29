@@ -157,3 +157,49 @@ fed into sklearn's Support Vector Machine Classifier and the following observati
 		</td>	
 	</tr>
 </table>
+<h2>Hand Written Data Recognition Using GaussianNB.ipynb</h2>
+Simple script in which data is used from the generated pickle files and then 
+fed into sklearn's Gaussian Naive Bayes and the following observations were recorded <br/>
+<table>
+	<caption>Observation</caption>
+	<tr>
+		<td>
+			Classifier Properties
+		</td>
+		<td>
+			GaussianNB(priors=None)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Training Time
+		</td>
+		<td>
+			0.50 seconds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Training Accuracy(accuracy_score)
+		</td>
+		<td>
+			35.212
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Testing Accuracy(accuracy_score)
+		</td>
+		<td>
+			35.54
+		</td>	
+	</tr>
+	<tr>
+		<td>
+			Testing time
+		</td>
+		<td>
+			1 sec
+		</td>	
+	</tr>
+</table>
