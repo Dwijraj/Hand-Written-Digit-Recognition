@@ -62,7 +62,7 @@ The following observations were noted
 
 <h2>Hand Written Data Recognition Using KNN alogorithm.ipynb</h2>
 Simple script in which data is used from the generated pickle files and then 
-fed into sklearn's KNNClassifier and the following observations were recorded
+fed into sklearn's KNNClassifier and the following observations were recorded<br/>
 <table>
 	<caption>Observation</caption>
 	<tr>
@@ -110,7 +110,7 @@ fed into sklearn's KNNClassifier and the following observations were recorded
 </table>
 <h2>Hand Written Data Recognition Using SVC.ipynb</h2>
 Simple script in which data is used from the generated pickle files and then 
-fed into sklearn's Support Vector Machine Classifier and the following observations were recorded
+fed into sklearn's Support Vector Machine Classifier and the following observations were recorded<br/>
 <table>
 	<caption>Observation</caption>
 	<tr>
@@ -129,7 +129,7 @@ fed into sklearn's Support Vector Machine Classifier and the following observati
 			Training Time
 		</td>
 		<td>
-			15secs
+			1687secs =28mins
 		</td>
 	</tr>
 	<tr>
@@ -137,7 +137,7 @@ fed into sklearn's Support Vector Machine Classifier and the following observati
 			Training Accuracy(accuracy_score)
 		</td>
 		<td>
-			85.902
+			82.864
 		</td>
 	</tr>
 	<tr>
@@ -145,7 +145,7 @@ fed into sklearn's Support Vector Machine Classifier and the following observati
 			Testing Accuracy(accuracy_score)
 		</td>
 		<td>
-			85.57
+			82.8
 		</td>	
 	</tr>
 	<tr>
@@ -153,7 +153,7 @@ fed into sklearn's Support Vector Machine Classifier and the following observati
 			Testing time
 		</td>
 		<td>
-			545sec = 9 mins
+			259sec = 4 mins
 		</td>	
 	</tr>
 </table>
