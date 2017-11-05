@@ -202,4 +202,56 @@ fed into sklearn's Gaussian Naive Bayes and the following observations were reco
 			1 sec
 		</td>	
 	</tr>
+<h2>Hand Written Data Recognition Using NeuralNetwork.ipynb</h2>
+Simple script in which data is used from the generated pickle files and then 
+fed into a neural network implemented in tensorflow and the following observations were recorded <br/>
+<table>
+	<caption>Observation</caption>
+	<tr>
+		<td>
+			Classifier Properties
+		</td>
+		<td>
+			total_layers=7
+			Layer_Units={1:38,2:38,3:38,4:38,5:38,6:38,7:10}
+			Activation functions for layer 1-6 ReLU
+			Activatioin function for output layer Softmax
+			Optimizer used :- Adam Optimizer 
+			Learning rate:- 0.001
+			Steps used :- 1500
+			Training type:- Full batch
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Training Time
+		</td>
+		<td>
+			2820.50 seconds= 47mins
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Training Accuracy(accuracy_score)
+		</td>
+		<td>
+			99.7
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Testing Accuracy(accuracy_score)
+		</td>
+		<td>
+			99.2
+		</td>	
+	</tr>
+	<tr>
+		<td>
+			Testing time
+		</td>
+		<td>
+			< 1 sec
+		</td>	
+	</tr>	
 </table>
