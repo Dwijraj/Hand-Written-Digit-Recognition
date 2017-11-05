@@ -202,6 +202,7 @@ fed into sklearn's Gaussian Naive Bayes and the following observations were reco
 			1 sec
 		</td>	
 	</tr>
+</table>	
 <h2>Hand Written Data Recognition Using NeuralNetwork.ipynb</h2>
 Simple script in which data is used from the generated pickle files and then 
 fed into a neural network implemented in tensorflow and the following observations were recorded <br/>
