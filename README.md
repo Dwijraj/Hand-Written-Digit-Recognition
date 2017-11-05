@@ -31,7 +31,7 @@ The following observations were noted
 			Training Time
 		</td>
 		<td>
-			2215 sec = 36mins
+			1182 sec= 20mins
 		</td>
 	</tr>
 	<tr>
@@ -39,7 +39,7 @@ The following observations were noted
 			Training Accuracy(accuracy_score)
 		</td>
 		<td>
-			81.772
+			92
 		</td>
 	</tr>
 	<tr>
@@ -47,7 +47,7 @@ The following observations were noted
 			Testing Accuracy(accuracy_score)
 		</td>
 		<td>
-			81.64
+			92
 		</td>	
 	</tr>
 	<tr>
@@ -55,7 +55,7 @@ The following observations were noted
 			Testing time
 		</td>
 		<td>
-			5sec 
+			< 1sec 
 		</td>	
 	</tr>
 </table>
@@ -80,7 +80,7 @@ fed into sklearn's KNNClassifier and the following observations were recorded<br
 			Training Time
 		</td>
 		<td>
-			15secs
+			18secs
 		</td>
 	</tr>
 	<tr>
@@ -88,7 +88,7 @@ fed into sklearn's KNNClassifier and the following observations were recorded<br
 			Training Accuracy(accuracy_score)
 		</td>
 		<td>
-			85.902
+			92.8
 		</td>
 	</tr>
 	<tr>
@@ -96,7 +96,7 @@ fed into sklearn's KNNClassifier and the following observations were recorded<br
 			Testing Accuracy(accuracy_score)
 		</td>
 		<td>
-			85.57
+			97.4
 		</td>	
 	</tr>
 	<tr>
@@ -104,7 +104,7 @@ fed into sklearn's KNNClassifier and the following observations were recorded<br
 			Testing time
 		</td>
 		<td>
-			545sec = 9 mins
+			64sec = 1 mins
 		</td>	
 	</tr>
 </table>
@@ -129,7 +129,7 @@ fed into sklearn's Support Vector Machine Classifier and the following observati
 			Training Time
 		</td>
 		<td>
-			1687secs =28mins
+			620secs =18mins
 		</td>
 	</tr>
 	<tr>
@@ -137,7 +137,7 @@ fed into sklearn's Support Vector Machine Classifier and the following observati
 			Training Accuracy(accuracy_score)
 		</td>
 		<td>
-			82.864
+			94.864
 		</td>
 	</tr>
 	<tr>
@@ -145,7 +145,7 @@ fed into sklearn's Support Vector Machine Classifier and the following observati
 			Testing Accuracy(accuracy_score)
 		</td>
 		<td>
-			82.8
+			93.1
 		</td>	
 	</tr>
 	<tr>
@@ -183,7 +183,7 @@ fed into sklearn's Gaussian Naive Bayes and the following observations were reco
 			Training Accuracy(accuracy_score)
 		</td>
 		<td>
-			35.212
+			55.212
 		</td>
 	</tr>
 	<tr>
@@ -191,7 +191,7 @@ fed into sklearn's Gaussian Naive Bayes and the following observations were reco
 			Testing Accuracy(accuracy_score)
 		</td>
 		<td>
-			35.54
+			55.54
 		</td>	
 	</tr>
 	<tr>
