@@ -256,3 +256,56 @@ fed into a neural network implemented in tensorflow and the following observatio
 		</td>	
 	</tr>	
 </table>
+<h2>Hand Written Data Recognition Using ConvolutionNeuralNetwork.ipynb</h2>
+Simple script in which data is used from the generated pickle files and then 
+fed into a neural network(with CNN) implemented in tensorflow and the following observations were recorded <br/>
+<table>
+	<caption>Observation</caption>
+	<tr>
+		<td>
+			Classifier Properties
+		</td>
+		<td>
+			total_layers=3
+			Layer_1(Convolutional layer with maxpool) (CNN(kernel=[4,4,1,8],strides=[1,1,1,1],padding='SAME' )->ReLU-> Maxpooling(padding='SAME',ksize=[1,8,8,1],strides=[1,8,8,1]))
+			Layer_2(Convolutional layer with maxpool) (CNN(kernel=[2,2,8,16],strides=[1,1,1,1],padding='SAME' )->ReLU-> Maxpooling(padding='SAME',ksize=[1,4,4,1],strides=[1,4,4,1]))
+			Layer_3(Fully Connected Classifier)(Neurons =10, <strong>NO ACTIVATION FUNCTION</strong>)
+			Optimizer used :- Adam Optimizer 
+			Learning rate:- 0.001
+			Steps used :- 1500
+			Training type:- Full batch
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Training Time
+		</td>
+		<td>
+			14646 seconds= 244mins=4hrs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Training Accuracy(accuracy_score)
+		</td>
+		<td>
+			95
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Testing Accuracy(accuracy_score)
+		</td>
+		<td>
+			95
+		</td>	
+	</tr>
+	<tr>
+		<td>
+			Testing time
+		</td>
+		<td>
+			< 1 sec
+		</td>	
+	</tr>	
+</table>
