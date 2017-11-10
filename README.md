@@ -233,7 +233,7 @@ fed into a neural network implemented in tensorflow and the following observatio
 	</tr>
 	<tr>
 		<td>
-			Training Accuracy(accuracy_score)
+			Training Accuracy(tf.metrics.accuracy)
 		</td>
 		<td>
 			99.7
@@ -241,7 +241,7 @@ fed into a neural network implemented in tensorflow and the following observatio
 	</tr>
 	<tr>
 		<td>
-			Testing Accuracy(accuracy_score)
+			Testing Accuracy(tf.metrics.accuracy)
 		</td>
 		<td>
 			99.2
@@ -286,7 +286,7 @@ fed into a neural network(with CNN) implemented in tensorflow and the following 
 	</tr>
 	<tr>
 		<td>
-			Training Accuracy(accuracy_score)
+			Training Accuracy(tf.metrics.accuracy)
 		</td>
 		<td>
 			95
@@ -294,7 +294,7 @@ fed into a neural network(with CNN) implemented in tensorflow and the following 
 	</tr>
 	<tr>
 		<td>
-			Testing Accuracy(accuracy_score)
+			Testing Accuracy(tf.metrics.accuracy)
 		</td>
 		<td>
 			95
