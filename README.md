@@ -311,6 +311,6 @@ fed into a neural network(with CNN) implemented in tensorflow and the following 
 </table>
 <h2>Hand Written Data Recognition in NeuralNetwork using Keras.ipynb</h2>
 <p>
-	Same neural network as <h2>Hand Written Data Recognition Using NeuralNetwork.ipynb</h2> 
+	Same neural network as <strong>Hand Written Data Recognition Using NeuralNetwork.ipynb</strong> 
 	implemented in Keras
 </p>	
